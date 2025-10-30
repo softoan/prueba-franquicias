@@ -1,0 +1,14 @@
+/Users/macbookpro/Documents/Practica JavaSpringBoot/prueba-franquicias/src/main/java/com/pbfranquicias/service/interfaces/FranchiseService.java
+/Users/macbookpro/Documents/Practica JavaSpringBoot/prueba-franquicias/src/main/java/com/pbfranquicias/App.java
+/Users/macbookpro/Documents/Practica JavaSpringBoot/prueba-franquicias/src/main/java/com/pbfranquicias/dto/FranchiseCreateDTO.java
+/Users/macbookpro/Documents/Practica JavaSpringBoot/prueba-franquicias/src/main/java/com/pbfranquicias/exception/GlobalExceptionHandler.java
+/Users/macbookpro/Documents/Practica JavaSpringBoot/prueba-franquicias/src/main/java/com/pbfranquicias/exception/NotFoundException.java
+/Users/macbookpro/Documents/Practica JavaSpringBoot/prueba-franquicias/src/main/java/com/pbfranquicias/entity/Product.java
+/Users/macbookpro/Documents/Practica JavaSpringBoot/prueba-franquicias/src/main/java/com/pbfranquicias/entity/Franchise.java
+/Users/macbookpro/Documents/Practica JavaSpringBoot/prueba-franquicias/src/main/java/com/pbfranquicias/dto/ProductCreateDTO.java
+/Users/macbookpro/Documents/Practica JavaSpringBoot/prueba-franquicias/src/main/java/com/pbfranquicias/dto/BranchCreateDTO.java
+/Users/macbookpro/Documents/Practica JavaSpringBoot/prueba-franquicias/src/main/java/com/pbfranquicias/dto/StockUpdateDTO.java
+/Users/macbookpro/Documents/Practica JavaSpringBoot/prueba-franquicias/src/main/java/com/pbfranquicias/controller/FranchiseController.java
+/Users/macbookpro/Documents/Practica JavaSpringBoot/prueba-franquicias/src/main/java/com/pbfranquicias/service/impl/FranchiseServiceImpl.java
+/Users/macbookpro/Documents/Practica JavaSpringBoot/prueba-franquicias/src/main/java/com/pbfranquicias/repository/FranchiseRepository.java
+/Users/macbookpro/Documents/Practica JavaSpringBoot/prueba-franquicias/src/main/java/com/pbfranquicias/entity/Branch.java

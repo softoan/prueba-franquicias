@@ -1,23 +1,12 @@
-# Etapa 1: Compilación del proyecto
-FROM maven:3.9.9-eclipse-temurin-17 AS build
+# Etapa 1: construir la app
+FROM maven:3.9.8-eclipse-temurin-21 AS build
 WORKDIR /app
-
-# Copiar archivos del proyecto
-COPY pom.xml .
-RUN mvn dependency:go-offline -B
-
-COPY src ./src
-
-# Compilar y empacar el proyecto
+COPY . .
 RUN mvn clean package -DskipTests
 
-# Etapa 2: Imagen final
-FROM eclipse-temurin:17-jdk-jammy
+# Etapa 2: imagen final
+FROM eclipse-temurin:21-jdk
 WORKDIR /app
-
-# Copiar el jar generado desde la etapa anterior
-COPY --from=build /app/target/*.jar app.jar
-
+COPY --from=build /app/target/pb-franquicias-1.0-SNAPSHOT.jar app.jar
 EXPOSE 8080
-
 ENTRYPOINT ["java", "-jar", "app.jar"]

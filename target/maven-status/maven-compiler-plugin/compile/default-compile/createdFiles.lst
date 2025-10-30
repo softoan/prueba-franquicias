@@ -1,0 +1,17 @@
+com/pbfranquicias/service/impl/FranchiseServiceImpl.class
+com/pbfranquicias/entity/Product.class
+com/pbfranquicias/App.class
+com/pbfranquicias/entity/Branch$BranchBuilder.class
+com/pbfranquicias/entity/Franchise$FranchiseBuilder.class
+com/pbfranquicias/entity/Franchise.class
+com/pbfranquicias/dto/StockUpdateDTO.class
+com/pbfranquicias/entity/Branch.class
+com/pbfranquicias/service/interfaces/FranchiseService.class
+com/pbfranquicias/exception/GlobalExceptionHandler.class
+com/pbfranquicias/repository/FranchiseRepository.class
+com/pbfranquicias/dto/FranchiseCreateDTO.class
+com/pbfranquicias/dto/ProductCreateDTO.class
+com/pbfranquicias/dto/BranchCreateDTO.class
+com/pbfranquicias/controller/FranchiseController.class
+com/pbfranquicias/exception/NotFoundException.class
+com/pbfranquicias/entity/Product$ProductBuilder.class

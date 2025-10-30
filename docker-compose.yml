@@ -1,7 +1,7 @@
 version: "3.9"
 
 services:
-  springboot-app:
+  app:
     build: .
     container_name: pbfranquicias_app
     ports:
@@ -11,17 +11,22 @@ services:
     environment:
       - SPRING_DATA_MONGODB_URI=mongodb://mongodb:27017/pbfranquicias
       - SPRING_DATA_MONGODB_DATABASE=pbfranquicias
-    restart: always
+    command: ["java", "-jar", "app.jar"]
+    networks:
+      - pbfranquicias_network
 
   mongodb:
     image: mongo:latest
     container_name: pbfranquicias_mongodb
-    restart: always
     ports:
-      - "27023:27017"
+      - "27017:27017"
     volumes:
-      - mongodb_data:/data/db
+      - mongo_data:/data/db
+    networks:
+      - pbfranquicias_network
 
 volumes:
-  mongodb_data:
-    driver: local
+  mongo_data:
+
+networks:
+  pbfranquicias_network:
